@@ -140,7 +140,7 @@ body {
 
 @media screen and (max-width: 600px) {
   .topnav.responsive {
-    position: absolute;
+    position: fixed;
   }
   .topnav {
     display: block;
@@ -949,7 +949,7 @@ footer.bottom .links > a {
     justify-self: center;
     position: relative;
     width: 100%;
-    margin-top: -70%;
+    top: -100%;
     margin-left:-15%;
   }
   .pagination-div2cart {

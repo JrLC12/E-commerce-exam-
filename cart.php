@@ -50,12 +50,12 @@ if(isset($_POST["update"])){
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
-    <script src="assets/js/cart.js"></script>
+    <script src="assets/js/index.js"></script>
     <link rel="stylesheet" href="assets/img/">
     <title>E-commerce (CART)</title>
 </head>
 
-<body >
+<body>
     <div class="topnav" id="myTopnav">
         <a href="index.php" id="logos">LOGO</a>
         <a href="index.php">Home</a>
@@ -69,7 +69,7 @@ if(isset($_POST["update"])){
         </a>
     </div>
 
-    <div class="container-fluid">
+    <div class="container-fluid-own">
         <table>
             <tr class="trtop">
                 <th colspan="2">PRODUCT</th>
@@ -167,10 +167,7 @@ if(isset($_POST["update"])){
             </tr>
         </table>
 
-        
-
-    </div>
-    <div class="pagination-div2cart" style="">
+        <div class="pagination-div2cart ">
             <?php
             if ($page > 1) {
                 echo "<a href='cart.php?page=" . ($page - 1) . "' class='previous'>Previous</a>";
@@ -184,7 +181,9 @@ if(isset($_POST["update"])){
             }
             ?>
         </div>
-    <section>
+    </div>
+    
+    <section style="position:relative;">
       <footer class="top">
         <img src="logo.svg" />
         <div class="links">

@@ -68,12 +68,12 @@ if (!isset($_POST["add_to_cart"])) {
             <i class="fa fa-bars"></i>
         </a>
     </div>
-
-    <div class="container-fluid">
-
-        <main>
+ <main>
             <img src="assets\img\pizzabg.jpg" alt="">
         </main>
+    <div class="container-fluid">
+
+       
 
         <div id="sidebar">
             <form action="index.php" method="POST">

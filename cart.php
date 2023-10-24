@@ -59,7 +59,7 @@ if(isset($_POST["update"])){
     <div class="topnav" id="myTopnav">
         <a href="index.php" id="logos">LOGO</a>
         <a href="index.php">Home</a>
-        <a href="#Products">Products</a>
+        <a href="index.php?#product">Products</a>
         <a href="#About">About</a>
         <a href="cart.php" class="active">
             <i class="fa fa-shopping-cart"></i>

@@ -949,7 +949,7 @@ footer.bottom .links > a {
     position: relative;
     top:0%;
     margin-left:0;
-    background-color: red;
+    background-color: transparent;
     box-sizing: border-box;
   }
   .pagination-div2 {
